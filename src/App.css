@@ -1,0 +1,47 @@
+.main-col{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 500px;
+    box-sizing: border-box;
+    position: relative;
+    align-self: flex-end;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+.center-col{
+    display: flex;
+    width: 10px;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    background-color: black;
+    position: absolute;
+}
+
+.disk-item-1{
+    width: 80%;
+    height: 7%;
+    border-radius: 20px;
+    background-color: #26a69a;
+    z-index: 1;
+    align-self: center;
+    cursor: pointer;
+}
+.disk-item-2{
+    width: 65%;
+    height: 7%;
+    border-radius: 20px;
+    background-color: yellow;
+    z-index: 1;
+    align-self: center;
+    cursor: pointer;
+}
+.disk-item-3{
+    width: 50%;
+    height: 7%;
+    border-radius: 20px;
+    background-color: dodgerblue;
+    z-index: 1;
+    align-self: center;
+    cursor: pointer;
+}
